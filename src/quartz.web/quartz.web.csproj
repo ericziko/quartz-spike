@@ -8,10 +8,14 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
 <!--        <PackageReference Include="Quartz" Version="3.13.0" />-->
-        <PackageReference Include="Quartz" Version="3.13.0" />
-        <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.13.0"/>
-        <PackageReference Include="Quartz.Extensions.Hosting" Version="3.13.0"/>
-        <PackageReference Include="Quartz.Plugins" Version="3.13.0" />
+<!--        <PackageReference Include="Quartz" Version="3.13.0" />-->
+<!--        <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.13.0"/>-->
+<!--        <PackageReference Include="Quartz.Extensions.Hosting" Version="3.13.0"/>-->
+<!--        <PackageReference Include="Quartz.Plugins" Version="3.13.0" />-->
+        <PackageReference Include="Quartz" Version="3.7.0" />
+        <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.7.0"/>
+        <PackageReference Include="Quartz.Extensions.Hosting" Version="3.7.0"/>
+        <PackageReference Include="Quartz.Plugins" Version="3.7.0" />
         <PackageReference Include="Quartzmon" Version="1.0.5" />
         <PackageReference Include="Quartzmon.Plugins.RecentHistory" Version="1.0.5" />
         <PackageReference Include="Quartzmon.SelfHost" Version="1.0.5" />

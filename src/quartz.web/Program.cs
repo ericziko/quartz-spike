@@ -20,8 +20,6 @@ public static class Program {
 
 
         services.AddQuartz(q => {
-            // q.SchedulerName = "ez-scheduler";
-            q.CheckConfiguration = true;
         });
         services.AddQuartzHostedService(options => { options.WaitForJobsToComplete = true; });
         services.AddQuartzmon();
