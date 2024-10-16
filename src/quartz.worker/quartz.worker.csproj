@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-quartz.worker-c2249e6d-bfa0-4750-bda8-bb63f8638458</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.13.0" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.13.0" />
+    <PackageReference Include="Quartzmin" Version="1.0.3" />
+    <PackageReference Include="Quartzmin.SelfHost" Version="1.0.3" />
+  </ItemGroup>
+</Project>
